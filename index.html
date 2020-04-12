@@ -20,13 +20,20 @@
   <body>
     <h1>Que faire à Paris? </h1>
 
+    <div class ="search">
+
+      <form onsubmit="OnFormSubmit(event)">
+        <input type="text" type="search"/>
+        <input type="submit">
+      </form>
+  
+    </div>
+  
+
     <div id="mapid"></div>
 
-    <form onsubmit="OnFormSubmit(event)">
-      <input type="text" type="search"/>
-      <input type="submit":>
-    </form>
 
+   
 
     <!-- import the webpage's javascript file -->
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"

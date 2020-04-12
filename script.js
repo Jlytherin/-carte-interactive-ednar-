@@ -66,4 +66,6 @@ function OnFormSubmit(event){
 event.preventDefault();
 console.log("Le formulaire à bien été envoyé");
 console.log(searchInput.value);
+
+getData(searchInput.value);
 }
